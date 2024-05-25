@@ -4,6 +4,9 @@ FROM kriansa/cs-16:latest
 ENV MAXPLAYERS="24"
 ENV MAPNAME="de_dust2"
 
+# Copy the engine
+COPY --chown=steam:steam engine_i486.so engine_i486.so
+
 # Copy the files
 COPY --chown=steam:steam cstrike/addons cstrike/addons
 COPY --chown=steam:steam cstrike/cfgs cstrike/cfgs
