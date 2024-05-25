@@ -1,5 +1,6 @@
+//Wiki: https://twhl.info/wiki/page/liblist.gam
 game "Counter-Strike"
-url_info "www.counter-strike.net"
+url_info "blog.cikaros.top"
 url_dl ""
 version "1.6"
 size "184000000"
